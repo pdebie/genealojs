@@ -7,7 +7,7 @@ const Graph = require('graphology');
 const Graphsp = require('graphology-shortest-path');
 
 
-let rawdata = fs.readFileSync('toto1.json');
+let rawdata = fs.readFileSync('tree.json');
 let data = JSON.parse(rawdata);
 
 console.log("\n-- init liste perso");
